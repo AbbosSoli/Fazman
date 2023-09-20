@@ -1,0 +1,29 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="20" height="20" fill="#707070"/>
+<g id="&#208;&#158; &#208;&#186;&#208;&#190;&#208;&#188;&#208;&#191;&#208;&#176;&#208;&#189;&#208;&#184;&#208;&#184;" clip-path="url(#clip0_71_2586)">
+<rect width="360" height="4075" transform="translate(-70 -3996)" fill="white"/>
+<g id="&#208;&#159;&#208;&#190;&#208;&#180;&#208;&#178;&#208;&#176;&#208;&#187;">
+<g id="Group 14277">
+<g id="Rectangle 1097">
+<mask id="path-1-inside-1_71_2586" fill="white">
+<path d="M-70 -59H290V79H-70V-59Z"/>
+</mask>
+<path d="M-70 -59H290V79H-70V-59Z" fill="white"/>
+<path d="M-70 -58H290V-60H-70V-58Z" fill="#EAEAEA" mask="url(#path-1-inside-1_71_2586)"/>
+</g>
+<g id="Group 14276">
+<g id="Group 8242">
+<g id="Frame 13">
+<path id="Vector" d="M10.7428 10.6768H13.5344L13.9728 7.69956H10.7422V6.07235C10.7422 4.83556 11.1272 3.73883 12.2292 3.73883H14V1.14067C13.6889 1.09656 13.0308 1 11.7875 1C9.19114 1 7.669 2.43945 7.669 5.7189V7.69956H5V10.6768H7.669V18.8599C8.19758 18.9434 8.73297 19 9.28255 19C9.77933 19 10.2642 18.9523 10.7428 18.8844V10.6768Z" fill="black"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_71_2586">
+<rect width="360" height="4075" fill="white" transform="translate(-70 -3996)"/>
+</clipPath>
+</defs>
+</svg>
