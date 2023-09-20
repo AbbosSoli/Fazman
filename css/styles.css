@@ -799,7 +799,6 @@ body {
 .as-modal-right .modal-body {
   padding: 0;
   background-color: #fff;
-
 }
 .as-modal-right .modal-title {
   color: var(--000000, #000);
@@ -1090,7 +1089,7 @@ input[type="radio"]::before {
 }
 .as-news-info:hover a {
   opacity: 0.7;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 .as-news-info a {
   color: var(--000000, #000);
@@ -1103,6 +1102,12 @@ input[type="radio"]::before {
   display: flex;
   flex-direction: column;
   padding: 1rem 0 1rem 2rem;
+}
+.as-blog-tabs .as-dark-t {
+  margin-bottom: 3rem;
+}
+.as-blog-tabs .nav-pills {
+  margin-bottom: 3rem;
 }
 .as-blog-tabs .as-bg-trasparent-btn {
   color: #000;
@@ -1530,28 +1535,27 @@ input[type="radio"]::before {
   background-color: #000000;
   border-radius: 50%;
   padding: 0.875rem;
-  -webkit-transition: .7s all cubic-bezier(.03, .88, .34, .97);
-  transition: .7s all cubic-bezier(.03, .88, .34, .97);
-  -webkit-box-shadow: 0 5px 18px 2px rgba(0, 0, 0, .2);
-  box-shadow: 0 5px 18px 2px rgba(0, 0, 0, .2);
+  -webkit-transition: 0.7s all cubic-bezier(0.03, 0.88, 0.34, 0.97);
+  transition: 0.7s all cubic-bezier(0.03, 0.88, 0.34, 0.97);
+  -webkit-box-shadow: 0 5px 18px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 18px 2px rgba(0, 0, 0, 0.2);
   visibility: hidden;
   opacity: 0;
   -webkit-transform: scale(0);
   transform: scale(0);
-  z-index: 999
+  z-index: 999;
 }
 
 #back-top.visible {
   visibility: visible;
-  opacity: .9;
+  opacity: 0.9;
   -webkit-transform: scale(1);
-  transform: scale(1)
+  transform: scale(1);
 }
 
 #back-top.visible:hover {
-  opacity: 1
+  opacity: 1;
 }
-
 
 /* ///////////// Media queries*/
 @media (min-width: 1440px) {
@@ -2007,12 +2011,18 @@ input[type="radio"]::before {
   .as-vacancy-section .slider .slick-arrow.slick-next {
     background: url("../images/new-p-left.png") 0 0 / 100% no-repeat;
   }
+  .as-blog-tabs .as-dark-t {
+    margin-bottom: 1.8rem;
+  }
+  .as-blog-tabs .nav-pills {
+    margin-bottom: 1.8rem;
+  }
   .as-blog-tabs .nav-pills {
     display: flex;
     flex-direction: row;
   }
   .as-blog-tabs .nav-pills .nav-link {
-    width: 150px;
+    width: 160px;
     height: auto;
   }
   .as-blog-tabs .as-bg-trasparent-btn {
