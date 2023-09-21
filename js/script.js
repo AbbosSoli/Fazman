@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('.slider').slick({
         arrows:true,
         adaptiveHeight:true,
-        slidesToShow: 5 ,
+        slidesToShow: 4,
         centerMode: true,
         responsive:[
             {
@@ -14,13 +14,13 @@ $(document).ready(function(){
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow:3
+                    slidesToShow:2
                 }
             },
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow:4
+                    slidesToShow:3
                 }
             }
         ]
