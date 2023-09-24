@@ -511,16 +511,20 @@ body {
 }
 .as-about-row {
   position: relative;
+  display: flex;
+  background-color:#000;
 }
 .as-about-img {
   position: absolute;
   width: 50%;
   right: 0;
-  top: 0;
   height: 100%;
-  overflow: hidden;
 }
-
+  .as-about-img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
 .as-about-title {
   color: var(--ffffff, #fff);
   font-size: 3rem;
@@ -758,8 +762,8 @@ body {
   margin: 0 0.5rem;
 }
 
-
-.page-item:first-child .page-link, .page-item:last-child .page-link  {
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
   border-radius: 0;
   border: none;
 }
@@ -776,7 +780,8 @@ body {
   box-shadow: none;
   border: 1px solid #000;
 }
-.page-link:focus, .page-link:hover {
+.page-link:focus,
+.page-link:hover {
   color: #000;
 }
 .as-page-arrow img {
@@ -1772,6 +1777,7 @@ input[type="radio"]::before {
     width: 100%;
     position: relative;
   }
+
   .as-about-row {
     display: flex;
     flex-direction: column-reverse;
